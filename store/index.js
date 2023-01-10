@@ -1,704 +1,486 @@
 import { v4 as uuidv4 } from "uuid";
 
 export const state = () => ({
-  projectsHeading: "Projects Portfolio",
+  projectsHeading: "< Projects Portfolio />",
   projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
-      title: "Google Health Platform",
+      id: "canvassing2022",
+      title: "National Canvassing of Elections",
       category: "Web Application",
-      img: "images/web-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      img: "images/canvass/index.webp",
+      publishDate: "May, 2022",
+      tag: "Web Application",
       clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      objectivesTitle: "",
+      objectivesDetails: "",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
+      detailsTitle: "Description",
+      socialTitle: "",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/ui-project-1.jpg",
+          title: "National Canvassing of Elections UI 1",
+          img: "../images/canvass/1.webp",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-1.jpg",
+          title: "National Canvassing of Elections UI 2",
+          img: "../images/canvass/2.webp",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-2.jpg",
+          title: "National Canvassing of Elections UI 3",
+          img: "../images/canvass/3.webp",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "House of Representatives of the Philippines",
         },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
+        // {
+        //   id: uuidv4(),
+        //   title: "Services",
+        //   details: "UI Design & Frontend Development",
+        // },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://www.congress.gov.ph",
         },
       ],
       technologies: [
         "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
+        "SCSS",
+        "Vue 3",
         "TailwindCSS",
-        "AdobeXD",
+        "Laravel",
+        "AWS Services",
+        "PUSHER",
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Application Developed to speed up the canvassing of votes and showcase transparency during the National Election of 2022 in the Philippines",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Roles: Lead Developer, SCRUM Master, Frontend UI Developer, Backend API Developer",
         },
       ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
+      socialSharings: [],
     },
     {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
-      title: "Phoenix Digital Agency",
-      category: "Mobile Application",
-      img: "images/mobile-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
-      title: "Project Management UI",
-      category: "UI/UX Design",
-      img: "images/ui-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Cloud Storage Platform",
-      category: "UI/UX Design",
-      img: "images/ui-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "Web / Frontend",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Uber Social App",
-      category: "Mobile Application",
-      img: "images/mobile-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
-      techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
-      projectImages: [
-        {
-          id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/mobile-project-2.jpg",
-        },
-      ],
-      companyInfos: [
-        {
-          id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
-        },
-      ],
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
-      ],
-      projectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-        },
-      ],
-      socialSharings: [
-        {
-          id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
-      ],
-    },
-    {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
+      id: "halalan2022-public-site",
+      title: "Halalan 2022 - Infosite",
       category: "Web Application",
-      img: "images/web-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
+      img: "images/halalan-public-site/index.webp",
+      publishDate: "May, 2022",
+      tag: "Web Application",
       clientTitle: "About Client",
-      objectivesTitle: "Objective",
-      objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://halalan2022.info",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
-      socialTitle: "Share This",
+      detailsTitle: "Description",
+      socialTitle: "",
       projectImages: [
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-1.jpg",
+          title: "Canvassing - Public Site UI 1",
+          img: "../images/halalan-public-site/1.webp",
         },
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-2.jpg",
+          title: "Canvassing - Public Site UI 2",
+          img: "../images/halalan-public-site/2.webp",
         },
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/mobile-project-2.jpg",
+          title: "Canvassing - Public Site UI 3",
+          img: "../images/halalan-public-site/3.webp",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "House of Representatives of the Philippines",
         },
-        {
-          id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
-        },
+        // {
+        //   id: uuidv4(),
+        //   title: "Services",
+        //   details: "UI Design & Frontend Development",
+        // },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://www.congress.gov.ph",
         },
       ],
       technologies: [
         "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
+        "SCSS",
+        "Vue 3",
         "TailwindCSS",
-        "AdobeXD",
+        "Laravel",
+        "AWS Services",
+        "PUSHER",
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Application Developed to showcase transparency during the National Election of 2022 in the Philippines",
         },
         {
           id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+          details: "Roles: SCRUM Master, Frontend UI Developer",
         },
       ],
-      socialSharings: [
+      socialSharings: [],
+    },
+    {
+      id: "sona2022",
+      title: "SONA 2022 Website",
+      category: "Website",
+      img: "images/sona2022/index.webp",
+      publishDate: "July, 2022",
+      tag: "Website",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://sona2022.ph",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
+          title: "SONA 2022 Website UI 1",
+          img: "../images/sona2022/1.webp",
         },
         {
           id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
+          title: "SONA 2022 Website UI 2",
+          img: "../images/sona2022/2.webp",
         },
         {
           id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
+          title: "SONA 2022 Website UI 3",
+          img: "../images/sona2022/3.webp",
         },
       ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "House of Representatives of the Philippines",
+        },
+        // {
+        //   id: uuidv4(),
+        //   title: "Services",
+        //   details: "UI Design & Frontend Development",
+        // },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://www.congress.gov.ph",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "Vue 3",
+        "TailwindCSS",
+        "Laravel",
+        "AWS Services - S3 & CloudFront",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "An informative static website for the SONA 2022 and historical information on the previous SONAs.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Roles: Lead Developer, SCRUM Master, Frontend UI Developer, Backend API Developer",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
+      id: "housepass",
+      title: "HousePass - Health Monitoring & Access Control System",
+      category: "Web Application",
+      img: "images/housepass/index.webp",
+      publishDate: "July, 2022",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "http://housepass.hrep.online/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "HousePass UI 1",
+          img: "../images/housepass/1.webp",
+        },
+        {
+          id: uuidv4(),
+          title: "HousePass UI 2",
+          img: "../images/housepass/2.webp",
+        },
+        {
+          id: uuidv4(),
+          title: "HousePass UI 3",
+          img: "../images/housepass/index.webp",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "House of Representatives of the Philippines",
+        },
+        // {
+        //   id: uuidv4(),
+        //   title: "Services",
+        //   details: "UI Design & Frontend Development",
+        // },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://www.congress.gov.ph",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "Vue 3",
+        "TailwindCSS",
+        "Laravel",
+        "AWS Services",
+        "PUSHER",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "A web application used to check employee’s access control and covid-19 symptoms in the House of Representatives of the Philippines.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Roles: SCRUM Master, Frontend UI Developer, Backend API Developer",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
+      id: "vostronet-website",
+      title: "VostroNet Website",
+      category: "Website",
+      img: "images/vostronet/index.png",
+      publishDate: "2020",
+      tag: "Website",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://vostronet.com/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "vostronet UI 1",
+          img: "../images/vostronet/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "vostronet UI 2",
+          img: "../images/vostronet/2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "vostronet UI 3",
+          img: "../images/vostronet/3.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: ["HTML", "SCSS", "React", "Bootstrap", "GatsbyJS"],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Website for leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          details: "Roles: Frontend UI Developer",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
+      id: "zolt",
+      title: "Zolt",
+      category: "Web Application",
+      img: "images/zolt/index.png",
+      publishDate: "2020",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://www.zolt.com.au/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "zolt UI 1",
+          img: "../images/zolt/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "zolt UI 2",
+          img: "../images/zolt/2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "zolt UI 3",
+          img: "../images/zolt/3.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "React",
+        "Bootstrap",
+        "GatsbyJS",
+        " Apollo GraphQL",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Portal for Zolt Internet Users - to manage account and internet plans",
+        },
+        {
+          id: uuidv4(),
+          details: "Roles: Frontend UI Developer",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
+      id: "getgud",
+      title: "getgud",
+      category: "Web Application",
+      img: "images/getgud/index.png",
+      publishDate: "2021",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://www.zolt.com.au/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "getgud UI 1",
+          img: "../getgud/zolt/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "getgud UI 2",
+          img: "../getgud/zolt/2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "getgud UI 3",
+          img: "../getgud/zolt/index.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "React",
+        "Bootstrap",
+        "GatsbyJS",
+        " Apollo GraphQL",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Portal for GetGud Internet Users - to manage account and internet plans",
+        },
+        {
+          id: uuidv4(),
+          details: "Roles: Frontend UI Developer",
+        },
+      ],
+      socialSharings: [],
     },
   ],
   clientsHeading: "Some of the brands I worked with",
@@ -760,25 +542,13 @@ export const state = () => ({
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/aerborne",
     },
     {
       id: uuidv4(),
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/realstoman",
-    },
-    {
-      id: uuidv4(),
-      name: "Medium",
-      icon: "book",
-      url: "https://stoman.medium.com",
-    },
-    {
-      id: uuidv4(),
-      name: "Instagram",
-      icon: "instagram",
-      url: "https://instagram.com/realstoman",
+      name: "LinkedIn",
+      icon: "linkedin",
+      url: "https://www.linkedin.com/in/karl-baldelomar-04b8b0162/",
     },
   ],
   categories: [
@@ -786,21 +556,6 @@ export const state = () => ({
       id: uuidv4(),
       value: "web",
       name: "Web Application",
-    },
-    {
-      id: uuidv4(),
-      value: "mobile",
-      name: "Mobile Applicaiton",
-    },
-    {
-      id: uuidv4(),
-      value: "ui-ux",
-      name: "UI/UX Design",
-    },
-    {
-      id: uuidv4(),
-      value: "branding",
-      name: "Branding & Animations",
     },
   ],
 });

@@ -12,6 +12,7 @@ export default {
     return {
       isOpen: false,
       modal: false,
+      title: "<Kabal />",
     };
   },
 
@@ -58,20 +59,11 @@ export default {
       <div class="flex justify-between items-center px-6 sm:px-0">
         <!-- Header logos -->
         <div>
-          <NuxtLink to="/">
-            <img
-              v-if="this.$colorMode.value == 'dark'"
-              src="~/static/logo-light.svg"
-              class="w-36"
-              alt="Light Logo"
-            />
-
-            <img
-              v-else
-              src="~/static/logo-dark.svg"
-              alt="Color Logo"
-              class="w-36"
-            />
+          <NuxtLink
+            to="/"
+            class="text-2xl md:text-3xl uppercase font-general-semibold"
+          >
+            {{ title }}
           </NuxtLink>
         </div>
 

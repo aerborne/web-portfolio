@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, Iam Stoman
+        Karl Baldelomar
       </h1>
       <p
         class="
@@ -58,11 +58,11 @@ export default {
           text-gray-400
         "
       >
-        A Full-Stack Developer & Design Enthusiast
+        Senior Full-Stack Engineer | Javascript Enthusiast | Code Sleuth
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="/Stoman-Resume.pdf"
+          href="/resume.pdf"
           download=""
           class="
             flex
