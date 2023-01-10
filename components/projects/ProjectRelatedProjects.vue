@@ -7,23 +7,23 @@ export default {
         relatedProjects: [
           {
             id: 1,
-            title: "Mobile UI",
-            img: require("@/static/images/mobile-project-1.jpg"),
+            title: "Q2 UI",
+            img: require("@/static/images/q2/index.png"),
           },
           {
             id: 2,
-            title: "Web Application",
-            img: require("@/static/images/web-project-1.jpg"),
+            title: "VostroNet",
+            img: require("@/static/images/vostronet/index.png"),
           },
           {
             id: 3,
-            title: "UI Design",
-            img: require("@/static/images/ui-project-2.jpg"),
+            title: "Canvass",
+            img: require("@/static/images/canvass/index.webp"),
           },
           {
             id: 4,
-            title: "Kabul Mobile App UI",
-            img: require("@/static/images/mobile-project-2.jpg"),
+            title: "SONA 2022 UI",
+            img: require("@/static/images/sona2022/index.webp"),
           },
         ],
       },

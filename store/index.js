@@ -283,6 +283,79 @@ export const state = () => ({
       socialSharings: [],
     },
     {
+      id: "q2",
+      title: "Q2 Software Platform",
+      category: "Software Platform",
+      img: "images/q2/index.png",
+      publishDate: "2019",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Demo Link",
+      objectivesDetails: "https://vostronet.com/software-platform/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Q2 Software Platform UI 1",
+          img: "../images/q2/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Q2 Software Platform UI 2",
+          img: "../images/q2/2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Q2 Software Platform UI 3",
+          img: "../images/q2/index.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "React",
+        "Bootstrap",
+        "Apollo GraphQL",
+        "NodeJS - express",
+        "PostgreSQL & Sequelize",
+        "Docker",
+        "REDIS",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "VostroNet's Q2 Platform is a cloud-based Wi-Fi management system that centralises and automates the management of a wireless environment. Smarter Internet.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Roles: Fullstack Engineer (FrontEnd Developer and Backend Developer)",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
       id: "vostronet-website",
       title: "VostroNet Website",
       category: "Website",
@@ -346,7 +419,7 @@ export const state = () => ({
     },
     {
       id: "zolt",
-      title: "Zolt",
+      title: "Zolt Portal",
       category: "Web Application",
       img: "images/zolt/index.png",
       publishDate: "2020",
@@ -398,7 +471,7 @@ export const state = () => ({
         "React",
         "Bootstrap",
         "GatsbyJS",
-        " Apollo GraphQL",
+        "Apollo GraphQL",
       ],
       projectDetails: [
         {
@@ -415,14 +488,14 @@ export const state = () => ({
     },
     {
       id: "getgud",
-      title: "getgud",
+      title: "GetGud Portal",
       category: "Web Application",
       img: "images/getgud/index.png",
       publishDate: "2021",
       tag: "Web Application",
       clientTitle: "About Client",
       objectivesTitle: "Live Link",
-      objectivesDetails: "https://www.zolt.com.au/",
+      objectivesDetails: "https://getgud.gg/",
       techTitle: "Tools & Technologies",
       detailsTitle: "Description",
       socialTitle: "",
@@ -430,17 +503,17 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "getgud UI 1",
-          img: "../getgud/zolt/1.png",
+          img: "../images/getgud/1.png",
         },
         {
           id: uuidv4(),
           title: "getgud UI 2",
-          img: "../getgud/zolt/2.png",
+          img: "../images/getgud/2.png",
         },
         {
           id: uuidv4(),
           title: "getgud UI 3",
-          img: "../getgud/zolt/index.png",
+          img: "../images/getgud/index.png",
         },
       ],
       companyInfos: [
@@ -467,7 +540,7 @@ export const state = () => ({
         "React",
         "Bootstrap",
         "GatsbyJS",
-        " Apollo GraphQL",
+        "Apollo GraphQL",
       ],
       projectDetails: [
         {
@@ -482,58 +555,196 @@ export const state = () => ({
       ],
       socialSharings: [],
     },
+    {
+      id: "evergy",
+      title: "Evergy Internet Portal",
+      category: "Web Application",
+      img: "images/evergy/index.png",
+      publishDate: "2021",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://evergy.vostro.live/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "evergy UI 1",
+          img: "../images/evergy/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "evergy UI 2",
+          img: "../images/evergy/index.png",
+        },
+        // {
+        //   id: uuidv4(),
+        //   title: "evergy UI 3",
+        //   img: "../images/evergy/index.png",
+        // },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "React",
+        "Bootstrap",
+        "GatsbyJS",
+        "Apollo GraphQL",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Portal for Evergy Internet Users - to manage account and internet plans",
+        },
+        {
+          id: uuidv4(),
+          details: "Roles: Frontend UI Developer",
+        },
+      ],
+      socialSharings: [],
+    },
+    {
+      id: "speedytel",
+      title: "SpeedyTel Internet Portal",
+      category: "Web Application",
+      img: "images/speedytel/index.png",
+      publishDate: "2021",
+      tag: "Web Application",
+      clientTitle: "About Client",
+      objectivesTitle: "Live Link",
+      objectivesDetails: "https://speedy.tel/",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Description",
+      socialTitle: "",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "speedytel UI 1",
+          img: "../images/speedytel/1.png",
+        },
+        {
+          id: uuidv4(),
+          title: "speedytel UI 2",
+          img: "../images/speedytel/2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "speedytel UI 3",
+          img: "../images/speedytel/index.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "VostroNet",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details:
+            "VostroNet is a leading network owner and internet provider in the Asia-Pacific region",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://vostronet.com/",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "SCSS",
+        "React",
+        "Bootstrap",
+        "GatsbyJS",
+        "Apollo GraphQL",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Portal for SpeedyTel Internet Users - to manage account and internet plans",
+        },
+        {
+          id: uuidv4(),
+          details: "Roles: Frontend UI Developer",
+        },
+      ],
+      socialSharings: [],
+    },
   ],
-  clientsHeading: "Some of the brands I worked with",
+  clientsHeading: "",
   clients: [
-    {
-      id: uuidv4(),
-      title: "Amazon",
-      img: "../brands/amazon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Sony",
-      img: "../brands/sony_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Adidas",
-      img: "../brands/adidas_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "FILA",
-      img: "../brands/fila_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "NB",
-      img: "../brands/nb_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "SAMSUNG",
-      img: "../brands/samsung_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "CANON",
-      img: "../brands/canon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "PUMA",
-      img: "../brands/puma_gray.png",
-    },
+    // {
+    //   id: uuidv4(),
+    //   title: "Amazon",
+    //   img: "../brands/amazon_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "Sony",
+    //   img: "../brands/sony_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "Adidas",
+    //   img: "../brands/adidas_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "FILA",
+    //   img: "../brands/fila_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "NB",
+    //   img: "../brands/nb_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "SAMSUNG",
+    //   img: "../brands/samsung_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "CANON",
+    //   img: "../brands/canon_gray.png",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   title: "PUMA",
+    //   img: "../brands/puma_gray.png",
+    // },
   ],
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: "I'm Karl Baldelomar a senior full-stack developer. I've been working with react, vue, laravel, and nodejs for 5 yrs. I used to work for the house of representatives(lead software developer) and the office of the president(IT officer) in the Philippines and worked on national projects(system for the canvassing of elections), also before that I've been working for Australian companies as a software developer.",
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio: "as a passionate software developer, I am willing to work long hours in order to build and achieve the project's goals.",
     },
   ],
   copyrightDate: new Date().getFullYear(),

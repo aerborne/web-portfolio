@@ -8,17 +8,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "54F Valencia St. Quezon City, New Manila 1112",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "karlbaldelomar.official@gmail.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "+63 956 994 2357",
           icon: "phone",
         },
       ],
